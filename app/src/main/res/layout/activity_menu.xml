@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/ImgViewId"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/rowlett"
+        android:background="#F4511E"
+        />
+    <LinearLayout
+        android:layout_width="275dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+    <TextView
+        android:id="@+id/NameViewId"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:text="@string/NameViewId"
+        android:textColor="#FD0835"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/InfoViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:text="TextView"
+        android:textColor="#43FFFFFF"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/PriceViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:text="TextView"
+        android:textColor="#82E0AA"
+        android:textSize="28sp"
+        />
+    </LinearLayout>
+</LinearLayout>

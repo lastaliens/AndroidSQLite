@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SqlDemo</string>
+    <string name="NameViewId">TextView</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_element"
+    android:layout_width="match_parent"
+    android:background="#82E0AA"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/editTextName"
+        android:hint="Dish's Name"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/editTextInfo"
+        android:hint="Dish's Info"
+        android:layout_width="match_parent"
+        android:layout_below="@id/editTextName"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/editTextPrice"
+        android:hint="Dish's Price"
+        android:layout_width="match_parent"
+        android:layout_below="@id/editTextInfo"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/editTextContent"
+        android:hint="Dish's Content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/editTextPrice"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/save_popup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextContent"
+        android:text="Save" />
+</RelativeLayout>
